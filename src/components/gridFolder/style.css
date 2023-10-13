@@ -1,0 +1,14 @@
+h1 {
+    background-color: aquamarine;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-template-rows: repeat(5, 50px);
+    border-style: solid;
+}
+
+.gridContainer {
+    display: flex;
+    justify-content: center;
+}
