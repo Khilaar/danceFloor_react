@@ -5,10 +5,13 @@ h1 {
     display: grid;
     grid-template-columns: repeat(5, 50px);
     grid-template-rows: repeat(5, 50px);
-    border-style: solid;
+    
 }
 
 .gridContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
 }
